@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455845045933",
+    "firebase_url": "https://agrosine-195fa.firebaseio.com",
+    "project_id": "agrosine-195fa",
+    "storage_bucket": "agrosine-195fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455845045933:android:f6b94c8746e85528ce0824",
+        "android_client_info": {
+          "package_name": "com.example.savitri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455845045933-0ah1g5gb3k13a7ev8vl3a4hk52hmfopt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.savitri",
+            "certificate_hash": "224b23e75b309618fbca826e1f2ca5a7e3242d67"
+          }
+        },
+        {
+          "client_id": "455845045933-e9ea12aml4eerbh76s0mt0uu5iift064.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ7zr3hhleDI9zXk5mcEW_3th1C9FeqAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455845045933-e9ea12aml4eerbh76s0mt0uu5iift064.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

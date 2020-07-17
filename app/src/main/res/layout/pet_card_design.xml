@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="140dp"
+    android:layout_height="250dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/pet_image"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:src="@drawable/veg"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/pet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Vegtables"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pet_disc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/andika"
+            android:textSize="10sp"
+            android:text="Vegtables Diseasse Disorder \n How to plant" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="To know more >"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

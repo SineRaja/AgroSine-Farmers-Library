@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Maps">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/topbg"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/agro2"/>
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:padding="5dp"
+            android:text="food AvAilAbiliTy MAps"
+            android:textAllCaps="true"
+            android:textColor="#3f3f3f"
+            android:textSize="21dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FOOD  AVAILABILITY OVERVIEW OF INDIA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/foodavbind"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS AVAILABILITY MAP OF INDIA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/fruitsininia"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="VEGETABLES AVAILABILITY MAP OF INDIA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/veginindia"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP ANDHRA PRADESH"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/andhrapradesh"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP ARUNACHAL PRADESH"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/arunchalpradesh"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP ASSAM"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/assam"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP BIHAR"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/bihar"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP CHHATTISGARH"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/chhattisgarh"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP GOA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/goa"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP GUJARAT"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/gujarat"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP HARYANA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/haryana"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP HIMACHAL PRADESh"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/himachalpradesh"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP JAMMU AND KASHMIR"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/jammuandkashmir"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP JHARKHAND"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/jharkhand"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP KARNATAKA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/karnataka"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP KERALA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/kerala"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP MADHYA PRADESH"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/madhyapradesh"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP MAHARASHTRA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/maharashtra"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP MANIPUR"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/maipur"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP MEGHALAYA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/meghalaya"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP MIZORAM"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/mizoram"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP NAGALAND"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/nagaland"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP ODISHA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/odisha"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP PUNJAB"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/punjab"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP RAJASTHAN"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/rajasthan"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP SIKKIM"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/sikkim"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP TAMIL NADU"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/tamilnadu"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP TELANGANA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/telangana"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP TRIPURA"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/tripura"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP UTTAR PRADESH"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/uttarpradesh"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP UTTARAKHAND"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/uttarkhand"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:padding="5dp"
+                    android:text="FRUITS and VEGETABLES AVAILABILITY MAP WEST BENGAL"
+                    android:textAllCaps="true"
+                    android:textColor="#3f3f3f"
+                    android:textSize="21dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:src="@drawable/westbengal"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
