@@ -18,6 +18,19 @@ In conclusion, the AgroSine app is a step in the right direction towards improvi
 ## Languages Used For this Application
  XML, Java
  
+ Output of the Application :
+ 
+ ![agrsoine4](https://user-images.githubusercontent.com/48998924/218094568-934e0672-2414-4127-99f7-6583c63e68c7.jpg)
+
+ 
+ ![WhatsApp Image 2023-02-09 at 09 14 43](https://user-images.githubusercontent.com/48998924/218094498-3d9f385d-271d-4fbc-b332-0452b3a93c8a.jpg)
+ 
+ ![WhatsApp Image 2023-02-09 at 09 14 42](https://user-images.githubusercontent.com/48998924/218094475-a8544f5b-d943-4401-967b-aac1ca5ed99b.jpg)
+ 
+ ![agrosine1](https://user-images.githubusercontent.com/48998924/218094395-7819310b-4908-46cc-9077-69c14df83458.jpg)
+
+![agrosine2](https://user-images.githubusercontent.com/48998924/218094437-133e8cd3-68e3-4ee1-8f8d-b4241eb34420.jpg)
+ 
  ![agrosine3](https://user-images.githubusercontent.com/48998924/218094237-edae5c70-de98-48c9-b7e5-f8245eb71e6d.jpg)
 
  
